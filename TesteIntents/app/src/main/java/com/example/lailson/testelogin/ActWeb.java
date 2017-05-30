@@ -3,7 +3,6 @@ package com.example.lailson.testelogin;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.webkit.WebChromeClient;
-import android.webkit.WebSettings;
 import android.webkit.WebView;
 
 public class ActWeb extends AppCompatActivity {
@@ -16,15 +15,8 @@ public class ActWeb extends AppCompatActivity {
         setContentView(R.layout.act_web);
 
         webId = (WebView) findViewById(R.id.webId);
-        webId.setWebChromeClient(new WebChromeClient());
-        WebSettings ws = webId.getSettings();
-        ws.setJavaScriptEnabled(true);
-        ws.setSupportZoom(false);
-        ws.setDomStorageEnabled(true);
-
-
-
-
+        //webId.setWebChromeClient(new WebChromeClient());
+        webId.getSettings().setJavaScriptEnabled(true);
         webId.loadUrl("http://www.google.com");
     }
 
