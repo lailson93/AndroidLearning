@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PDF Generator</string>
+    <string name="lbl_txtview1">Entre com um texto:</string>
+    <string name="editTxt_text" />
+</resources>
