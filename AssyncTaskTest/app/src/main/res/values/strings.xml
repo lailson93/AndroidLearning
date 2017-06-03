@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AssyncTaskTest</string>
+    <string name="btn_download">Download Image</string>
+</resources>
