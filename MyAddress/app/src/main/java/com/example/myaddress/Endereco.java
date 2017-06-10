@@ -12,7 +12,6 @@ public class Endereco {
     private String cidade;
     private String uf;
 
-
     public String getRua() {
         return rua;
     }
